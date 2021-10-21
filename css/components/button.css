@@ -1,0 +1,31 @@
+.btn-login {
+	border: 2px solid #ECA335;
+	background-color: #000000;
+	color: #ECA335;
+	padding: 15px 40px;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 40px 0px;
+}
+.btn-signup {
+	color:black;
+	background-color: #ECA335;
+	padding: 15px 70px;
+	border-radius: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.btn-search {
+	border: 2px solid #ECA335;
+	background-color: #000000;
+	color: #ECA335;
+	padding: 10px 30px;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 40px 0px;
+}
