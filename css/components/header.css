@@ -1,0 +1,30 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	width: 390px;
+	height: 86px;
+}
+
+#bell {
+	width: 42px;
+	height: 35px;
+}
+
+#logo {
+	width: 143px;
+	height: 46px;
+}
+#premium-member {
+	color: #ECA335;
+	font-size: 8px;
+}
+
+.header img {
+	position: absolute;
+	width: 143px;
+	height: 46px;
+	left: 123px;
+	top: 31px;
+}
