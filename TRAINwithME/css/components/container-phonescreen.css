@@ -1,0 +1,15 @@
+.container-phonescreen {
+	width: 390px;
+	height: 750px;
+	margin: 30px auto;
+	background-color: black;
+	background-repeat: no-repeat;
+}
+
+.container-phonescreen-grey {
+	width: 390px;
+	height: 750px;
+	margin: 30px auto;
+	background-color: #E5E5E5;
+	background-repeat: no-repeat;
+}

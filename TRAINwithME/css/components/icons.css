@@ -1,0 +1,12 @@
+.icons {
+	display: flex;
+	list-style: none;
+	background-color: white;
+	justify-content: space-around;
+	align-items: center;
+	height: 64px;
+	width: 390px;
+}
+.icons img {
+	width: 50px;
+}
