@@ -1,0 +1,15 @@
+.card-activate-premium {
+	width: 360px;
+	height: 180px;
+	background-color: rgba(196, 196, 196, 0.15);
+	border-radius: 26px;
+	margin: auto;
+	list-style: none;
+	margin-bottom: 30px;
+}
+.card-activate-premium h2 {
+	padding-top: 20px;
+}
+.card-activate-premium img {
+	width: 21px;
+}
