@@ -1,0 +1,49 @@
+.form-login-signup {
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+  padding-top: 80px;
+}
+.form-login-signup input {
+  width: 354px;
+  height: 64px;
+  padding: 12px;
+  border: 2px solid #ECA335;
+  box-sizing: border-box;
+  border-radius: 24px;
+  background-color: black;
+  color: #ECA335;
+}
+.form-login-signup li {
+  padding: 20px 0px;
+  padding-top: 0px;
+  padding-bottom: 21px;
+  text-align: center;
+}
+.form-login-signup input::placeholder {
+  color: #ECA335;
+  font-family: 'Montserrat', sans-serif;
+}
+.li forgot-password {
+  text-align: left;
+  padding: 0px 0px;
+}
+#btn-login {
+  padding: 60px;
+}
+
+form-login-signup.line {
+  width: 390px;
+}
+
+.form-login-signup btn-login {
+  padding: 20px 0px;
+}
+
+#login-padding {
+  padding-bottom: 80px;
+}
+#signup-padding {
+  padding-bottom: 80px;
+}
