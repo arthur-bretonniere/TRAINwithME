@@ -18,3 +18,15 @@
 	text-decoration: none;
 	margin: 40px 0px;
 }
+
+.btn-premium {
+	border: 2px solid #ECA335;
+	background-color: #000000;
+	padding: 10px 10px;
+	border-radius: 4px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ECA335;
+	font-size: 8px;
+}
+}
