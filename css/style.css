@@ -12,6 +12,10 @@
 @import url("components/logo.css");
 @import url("components/calories-count.css");
 @import url("components/list-meal.css");
+@import url("components/card-go-premium.css");
+@import url("components/card-activate-premium.css");
+@import url("components/membership-option.css");
+
 
 
 body {
@@ -33,7 +37,7 @@ h1 {
 h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 18;
+	font-size: 18px;
 }
 
 h3 {
