@@ -1,0 +1,17 @@
+.list-meal {
+	padding:12px;
+	padding-top: 0px;
+	font-weight: 200;
+	font-size: 10px;
+	text-align: left;
+}
+.list-meal h4 {
+	margin-bottom: 5px;
+}
+.list-meal p {
+	margin-top: 0px;
+}
+.list-meal a {
+	margin-top: 0px;
+	color: blue;
+}
