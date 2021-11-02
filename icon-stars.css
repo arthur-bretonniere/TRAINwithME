@@ -1,0 +1,25 @@
+.star-design li{
+
+	list-style: none;
+	padding-right: 5px;
+	position: center;
+	display: inline;
+}
+
+.star-design i{
+	color: #ECA335;
+}
+
+.star-design2 li{
+
+	list-style: none;
+	padding-right: 5px;
+	position: center;
+	display: inline;
+}
+
+.star-design2 i{
+	color: #ECA335;
+	width: 10px;
+
+}

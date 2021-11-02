@@ -1,0 +1,17 @@
+.card-opinions{
+
+	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+	padding: 15px;
+	background-color: rgb(25, 25, 25,0.09);
+	border-radius: 10px;
+	margin: 10px;
+
+}
+
+.card-opinions img {
+  width: 50px;
+  border-radius: 50%;
+}
+
