@@ -5,15 +5,25 @@
 	padding-left: 30px;
 	padding-bottom: 30px;
 	flex-flow: row;
+	width: 200px;
 }
 .membership-option h3 {
 	padding-left: 10px;
 	font-weight: 600;
 	font-size: 14px;
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .membership-option ul {
 	list-style: none;
 	padding-left: 0px;
+}
+
+#chosen {
+	padding: 15px 128px;
+	border-radius: 14px;
+	border: 2px solid #ECA335;
+	padding-left: 27px;
+	margin: auto;
 }
