@@ -1,0 +1,13 @@
+.card-trainer-review {
+	padding: 10px;
+	display: flex;
+	flex-basis: auto;
+	justify-content: space-between;
+	align-items: center;
+	width: 376px;
+	height: 63px;
+}
+
+.card-trainer-review a {
+	text-decoration: none;
+}
