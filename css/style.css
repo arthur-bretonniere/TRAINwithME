@@ -16,6 +16,8 @@
 @import url("components/card-activate-premium.css");
 @import url("components/membership-option.css");
 @import url("components/card-trainer.css");
+@import url("components/card-available-trainers.css");
+@import url("components/card-trainer-review.css");
 
 
 
@@ -80,12 +82,7 @@ h6 {
 	padding: 10px;
 	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 	text-align: center;
-}
-.list-vertical {
-	list-style-type: none;
-}
-.list-vertical li {
-	padding: 10px 0px;
+
 }
 
 .align-center {
@@ -93,12 +90,12 @@ h6 {
 	text-align: center;
 }
 
-.list-button {
+.list-button-landing {
 	list-style-type: none;
 	padding-left: 0px;
 	margin-top: 200px;
 }
-.list-button li {
+.list-button-landing li {
 	margin: 50px 0px;
 	align-items: center;
 	text-align: center;
@@ -121,9 +118,9 @@ h6 {
     width: 500px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 640px) {
   /* For a screen < 540px, this CSS will be read */
-  .container2 {
+  .container-phonescreen {
     width: 300px;
   }
 }
@@ -136,8 +133,18 @@ h6 {
 	margin-left: 20px;
 }
 
+#goback {
+	float: left;
+	padding-right: 200px;
+	padding-left: 10px;
+	margin: 10px;
+	color: rgba(0, 0, 0, 0.42);
+	font-size: 10;
+}
 
-
+.fill-div {
+	text-decoration: none;
+}
 
 
 
