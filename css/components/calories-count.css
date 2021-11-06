@@ -1,6 +1,6 @@
 .calories-count {
 	width: 320px;
-	height: 154px;
+	height: 128px;
 	background-color: rgba(196, 196, 196, 0.14);
 	border-radius: 33px;
 	margin: auto;
@@ -8,8 +8,9 @@
 
 #remaining {
 	color: #C4C4C4;
-	padding-top: 15px;
+	padding-top: 5px;
 	margin-bottom: 5px;
+	margin-top: 5px;
 }
 
 #nb-calories {
