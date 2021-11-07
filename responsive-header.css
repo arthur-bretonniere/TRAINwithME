@@ -1,0 +1,26 @@
+.header {
+	display: flex;
+	list-style: none;
+	background-color: black;
+	justify-content: space-around;
+	align-items: center;
+	height: 64px;
+	max-width: 960px;
+}
+
+#bell {
+	width: 42px;
+	height: 35px;
+}
+
+#premium-member {
+	color: #ECA335;
+	font-size: 8px;
+}
+
+.header img {
+	width: 50px;
+}
+.header h3 {
+	color: orange;
+}
