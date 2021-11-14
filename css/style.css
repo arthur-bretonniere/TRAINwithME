@@ -18,6 +18,12 @@
 @import url("components/card-trainer.css");
 @import url("components/card-available-trainers.css");
 @import url("components/card-trainer-review.css");
+@import url("components/health-score.css");
+@import url("components/card-daily-workout.css");
+@import url("components/icon-stars.css");
+@import url("components/card-opinions.css");
+@import url("components/avatar-trainer.css");
+@import url("components/responsive-header.css");
 
 
 
@@ -90,6 +96,11 @@ h6 {
 	text-align: center;
 }
 
+.align-left {
+	align-items: left;
+	text-align: left;
+	padding-left: 15px;
+}
 .list-button-landing {
 	list-style-type: none;
 	padding-left: 0px;
@@ -108,20 +119,20 @@ h6 {
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
-  .container2 {
+  .container {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
-  .container2 {
+  .container {
     width: 500px;
   }
 }
 @media (max-width: 640px) {
   /* For a screen < 540px, this CSS will be read */
-  .container-phonescreen {
-    width: 300px;
+  .container {
+    width: 360px;
   }
 }
 
@@ -144,11 +155,30 @@ h6 {
 
 .fill-div {
 	text-decoration: none;
+	color: inherit;
+}
+
+#todayis {
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+	color: rgba(0, 0, 0, 0.42);
+	font-size: 10;
+}
+
+#hiname {
+	text-align: left;
+	padding-left: 15px;
+	margin-bottom: 0px;
+	margin-top: 5px;
 }
 
 
-
-
+#title {
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
 
 
 
