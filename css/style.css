@@ -24,6 +24,10 @@
 @import url("components/card-opinions.css");
 @import url("components/avatar-trainer.css");
 @import url("components/responsive-header.css");
+@import url("components/card-founder.css");
+@import url("components/card-workout.css");
+@import url("components/dropdown.css");
+
 
 
 
@@ -33,6 +37,7 @@ body {
 	font-size: 18px;
 	margin: 0px;
 	text-align: center;
+	height: 100%;
 
 }
 
@@ -136,6 +141,56 @@ h6 {
   }
 }
 
+
+@media (max-width: 1200px) {
+  /* For a screen < 1200px, this CSS will be read */
+  .container-phonescreen-grey-exercice {
+    width: 390px;
+  }
+  .card-workout {
+  	display: block;
+  }
+  .card-workout h1 {
+  	margin-bottom: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  /* For a screen > 1200px, this CSS will be read */
+  .container-phonescreen-grey-exercice {
+    width: 750px;
+    height: 390px;
+  }
+  .card-workout {
+  	display: flex;
+  	align-items: center;
+	margin: auto;
+  	gap: 0px 10px;
+  }
+  .card-workout img {
+  	height: 250px;
+  	width: 250px;
+  	margin-top: 35px;
+  }
+  .card-workout h2 {
+  	margin-top: 20px;
+  	padding-left: 5px;
+  	font-size: 16px;
+  }
+  .card-workout h1 {
+  	margin-bottom: 0px;
+  	margin-top: 21px;
+  	font-size: 18px;
+  }
+}
+
+
+@media (min-width: 640px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 390px;
+  }
+}
+
 #mypasttrainers {
 	font-size: 24px;
 	float: left;
@@ -152,10 +207,20 @@ h6 {
 	color: rgba(0, 0, 0, 0.42);
 	font-size: 10;
 }
+#cross {
+	width: 15px;
+	margin-top: 5px;
+	position: absolute;
+	left: 10px;
+}
 
 .fill-div {
 	text-decoration: none;
 	color: inherit;
+}
+
+.list-vertical {
+list-style-type: none;
 }
 
 #todayis {
@@ -179,6 +244,7 @@ h6 {
 	margin-bottom: 5px;
 	margin-top: 0px;
 }
+
 
 
 
