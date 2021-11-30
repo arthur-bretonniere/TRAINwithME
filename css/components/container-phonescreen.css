@@ -1,4 +1,4 @@
-.container-phonescreen {
+.container-phonescreen-black {
 	width: 390px;
 	height: 750px;
 	margin: 30px auto;
@@ -12,4 +12,15 @@
 	margin: 30px auto;
 	background-color: #E5E5E5;
 	background-repeat: no-repeat;
+	position: relative;
 }
+
+.container-phonescreen-grey-exercice {
+	width: 390px;
+	height: 750px;
+	margin: 30px auto;
+	background-color: #E5E5E5;
+	background-repeat: no-repeat;
+	position: relative;
+}
+

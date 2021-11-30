@@ -4,10 +4,17 @@
 	background-color:  #FFFFFF;
 	justify-content: space-around;
 	align-items: center;
+	position: absolute;
 	height: 64px;
-	width: 390px;
+	width: 100%;
+	bottom: 0;
+	top: 100%;
+	overflow: auto;
 }
 
 .footer img {
 	width: 50px;
 }
+
+
+   
