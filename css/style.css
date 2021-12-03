@@ -29,8 +29,7 @@
 @import url("components/dropdown.css");
 
 
-
-
+/* Fonts used in the applications */
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -141,6 +140,7 @@ h6 {
   }
 }
 
+/* Responsive design when flipping phone horizontally or vertically */
 
 @media (max-width: 1200px) {
   /* For a screen < 1200px, this CSS will be read */
@@ -154,6 +154,8 @@ h6 {
   	margin-bottom: 35px;
   }
 }
+
+
 @media (min-width: 1200px) {
   /* For a screen > 1200px, this CSS will be read */
   .container-phonescreen-grey-exercice {
@@ -190,6 +192,8 @@ h6 {
     width: 390px;
   }
 }
+
+
 
 #mypasttrainers {
 	font-size: 24px;
