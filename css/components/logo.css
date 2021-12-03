@@ -1,14 +1,17 @@
+/* Logo design for the first page of the application */
 #landing-logo {
 	width: 361px;
 	height: 114px;
 	padding-top: 200px;
 }
 
+/* Logo design for the login page of the application */
 #login-logo {
 	width: 361px;
 	height: 114px;
 	padding-top: 50px;
 }
+/* Logo design for the sign-up page of the application */
 
 #signup-logo {
 	width: 361px;
@@ -16,6 +19,7 @@
 	padding-top: 50px;
 }
 
+/* Logo design for the header of each page */
 #header-logo {
 	width: 143px;
 	height: 46px;

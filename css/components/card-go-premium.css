@@ -1,3 +1,4 @@
+/* Pop-up when user click on "Go Premium button */
 .card-go-premium {
 	width: 374px;
 	height: 650px;
@@ -5,7 +6,6 @@
 	border-radius: 40px;
 	margin: auto;
 }
-
 .card-go-premium h1 {
 	padding-top: 20px;
 }

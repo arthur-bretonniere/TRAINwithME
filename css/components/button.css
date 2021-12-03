@@ -1,3 +1,4 @@
+/* Desing of both reuccring buttons in the applications */
 .btn-orange {
 	color:black;
 	background-color: #ECA335;
@@ -19,6 +20,7 @@
 	margin: 40px 0px;
 }
 
+/* Go Premium button */
 .btn-premium {
 	border: 2px solid #ECA335;
 	background-color: #000000;
@@ -29,12 +31,4 @@
 	color: #ECA335;
 	font-size: 8px;
 }
-.btn-about-us {
-	background-color: #000000;
-	padding: 10px 10px;
-	border-radius: 4px;
-	font-weight: bold;
-	text-decoration: none;
-	color: #ECA335;
-	font-size: 8px;
-}
+
